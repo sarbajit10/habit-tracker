@@ -14,6 +14,14 @@
     @apply focus:outline-none;
   }
 }
+button:active {
+  background-color: #4caf50; /* change on click */
+}
+
+button.completed {
+  background-color: #81c784; /* for completed habits */
+}
+
 
 html, body, #root {
   height: 100%;
